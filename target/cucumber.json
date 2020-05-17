@@ -1,0 +1,223 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6467281162,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Negative scenario. Login with wrong credentials",
+        "description": "",
+        "id": "login-feature;negative-scenario.-login-with-wrong-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 93340636,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1911160821,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the home page schwab.com",
+            "match": {
+              "location": "Login_Step_Def.user_on_the_home_page_schwab_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1975341107,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User \"Accounts Summary\" logs in wrong password and wrong loginID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accounts Summary\"",
+                  "offset": 5
+                }
+              ],
+              "location": "Login_Step_Def.user_logs_in_wrong_password_and_wrong_loginID(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1180265312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Negative scenario. Login with wrong credentials",
+        "description": "",
+        "id": "login-feature;negative-scenario.-login-with-wrong-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 103389777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 976578413,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the home page schwab.com",
+            "match": {
+              "location": "Login_Step_Def.user_on_the_home_page_schwab_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2088264583,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User \"Positions\" logs in wrong password and wrong loginID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Positions\"",
+                  "offset": 5
+                }
+              ],
+              "location": "Login_Step_Def.user_logs_in_wrong_password_and_wrong_loginID(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1156328126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Negative scenario. Login with wrong credentials",
+        "description": "",
+        "id": "login-feature;negative-scenario.-login-with-wrong-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 94458135,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1530202331,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on the home page schwab.com",
+            "match": {
+              "location": "Login_Step_Def.user_on_the_home_page_schwab_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1457336802,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User \"Order Status\" logs in wrong password and wrong loginID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Order Status\"",
+                  "offset": 5
+                }
+              ],
+              "location": "Login_Step_Def.user_logs_in_wrong_password_and_wrong_loginID(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/ui/features/login/login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
